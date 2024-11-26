@@ -12,15 +12,15 @@ Project Goals
 
 The project includes 10 main tables to represent different areas of cooperative management:
 
-    Members (Sheet1$) - Stores member profiles, including personal and contact information.
-    Loans (Sheet2$) - Records loan information, including loan type, amount, interest rate, and repayment status.
-    Transactions (Sheet3$) - Manages member transactions, including deposits, withdrawals, and transfers.
-    Savings (Sheet4$) - Details about each member’s savings accounts.
-    Payments (Sheet5$) - Tracks payment records for loans and dues.
-    Products (Sheet6$) - Catalog of products available for purchase by members.
-    Inventory (Sheet7$) - Manages stock levels of products within the cooperative.
-    Employee (Sheet8$) - Stores employee details and roles within the cooperative.
-    Feedback (Sheet10$) - Stores member feedback on products and services.
+    Members (JFCoopMembersTable) - Stores member profiles, including personal and contact information.
+    Loans (JFMemberLoans) - Records loan information, including loan type, amount, interest rate, and repayment status.
+    Transactions (JFCoopTransactions) - Manages member transactions, including deposits, withdrawals, and transfers.
+    Savings (JFCoopMemberSavings) - Details about each member’s savings accounts.
+    Payments (dbo.Payments) - Tracks payment records for loans and dues.
+    Products (JFCoopProducts) - Catalog of products available for purchase by members.
+    Inventory (Inventory) - Manages stock levels of products within the cooperative.
+    Employee (dbo.JFCoopEmployee) - Stores employee details and roles within the cooperative.
+    Feedback (dbo.Feedback) - Stores member feedback on products and services.
     Project Features
 
     Table Structure and Descriptions
