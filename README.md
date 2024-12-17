@@ -47,3 +47,7 @@ The project includes 10 main tables to represent different areas of cooperative 
     Triggers
         BeforeInsertTransaction: Ensures transaction values are within an acceptable range before recording them.
         AfterLoanApproval: Updates member status or sends a notification when a loan is approved.
+
+        VISUALIZATIONS
+        https://app.powerbi.com/links/vpbkAavNcV?ctid=e0df8ba9-17c5-4005-8a3b-cf7df4b1e766&pbi_source=linkShare
+        Open the link to view the Dashboard and Reports of Joyful Farmers Cooperative.
